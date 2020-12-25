@@ -9,7 +9,7 @@ sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/u
    $(lsb_release -cs) \
    stable"
 ```
-![Add Your User to the Docker Group](data/Images/Adding Docker to your package Repo.png)
+![Add Your User to the Docker Group](https://github.com/sada498/Installing_Kafka-Zookeeper_Using_Containers_in_Singe_node/blob/main/data/Images/Adding%20Docker%20to%20your%20package%20Repo.png)
  
 ### 2.Install docker and update the packages
 ```
@@ -37,6 +37,9 @@ chmod +x /usr/local/bin/docker-compose
 ```
 
 ### 5.Clone Repo from docker
+```
+git clone https://github.com/sada498/Installing_Kafka-Zookeeper_Using_Containers_in_Singe_node.git
+```
  
 ![](https://github.com/sada498/Installing_Kafka-Zookeeper_Using_Containers_in_Singe_node/blob/main/data/Images/Clone%20Repo%20from%20docker.png)
 ### 6.Change directory 
